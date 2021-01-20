@@ -28,4 +28,9 @@ public class MultiMaxTest {
         int result = MultiMax.max(9, 9, 9);
         assertThat(result, is(9));
     }
+    @Test
+    public void when10Max() {
+        int result = MultiMax.max(1, 10, 10);
+        assertThat(result, is(10));
+    }
 }
