@@ -12,6 +12,7 @@ public class MultipleSwitchWeekTest {
             int name = MultipleSwitchWeek.numberOfDay("Понедельник");
             assertThat(name, is(1));
     }
+
     @Test
     public void whenDayError() {
         int name = MultipleSwitchWeek.numberOfDay("Жопельник");

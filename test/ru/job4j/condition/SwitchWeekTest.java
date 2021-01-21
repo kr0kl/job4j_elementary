@@ -13,6 +13,7 @@ public class SwitchWeekTest {
             String name = SwitchWeek.nameOfDay(5);
             assertThat(name, is("Friday"));
     }
+
     @Test
 
     public void whenDayError() {
